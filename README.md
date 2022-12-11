@@ -1,1 +1,1 @@
-# exercise
+# 💻 Coding Challenge 💪
