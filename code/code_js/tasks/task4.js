@@ -13,8 +13,7 @@
 // code:
 function speedCheck(speed){
   // your code
-  
-  }
+}
 
 console.log(speedCheck(50));
 console.log(speedCheck(97));
@@ -23,7 +22,7 @@ console.log(speedCheck(200));
 // #
 
 // solution:
-function checkSpeed(speed) {
+function speedCheck(speed) {
   let points = 0;
 
   if (speed < 75)

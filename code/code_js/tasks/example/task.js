@@ -9,14 +9,5 @@
 function add(a, b) {
   // your code
 }
-result = add(a, b)
-
-// #
-
-// solution:
-function add(a, b) {
-  return a + b
-}
-result = add(5,7)
-
+console.log(add(1, 2))
 // #
