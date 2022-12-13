@@ -18,5 +18,5 @@ node task.js
 
 ### Run a specific test
 ```
-npm test solution.test.js 
+npm test ./tasks/task(your task number) 
 ```
