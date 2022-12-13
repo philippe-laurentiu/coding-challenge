@@ -13,10 +13,3 @@ let b = 'yellow';
 console.log(a); //-> 'yellow'
 console.log(b); //-> 'blue'
 // #
-
-// solution:
-let c = a;
-a = b;
-b = c;
-
-// #
