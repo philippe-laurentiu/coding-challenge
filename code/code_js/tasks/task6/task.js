@@ -1,13 +1,14 @@
-// title: Add function #
+// title: count truthy#
 // language: js #
 // dificulty: ** #
-// topic: functions #
+// topic: functions array #
 
-// taskdescription: write a funtion which adds to numbers and return the result#
+// taskdescription: counting truthy value in the array #
 
 // code:
-function add(a, b) {
+function countTruthy(array) {
   // your code
 }
-console.log(add(1, 2))
+const array = [0, null, undefined, "", 2, ,'hello',[1,2]];
+console.log(countTruthy(array))
 // #

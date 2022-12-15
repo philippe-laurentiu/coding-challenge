@@ -1,9 +1,7 @@
 const f = require('./solution.js');
 
-test('add 2 + 2 expect 4', () => {
-  expect(f(2, 2)).toBe(4);
+test('what value is truthy?', () => {
+  const array = [0, null, undefined, "", 2, ,'hello',[1,2]];
+  expect(f(array)).toBe(3);
 });
 
-test('add 1 + 3 expect 4', () => {
-  expect(f(1, 3)).toBe(4);
-});
