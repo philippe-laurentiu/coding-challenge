@@ -9,6 +9,6 @@
 function countTruthy(array) {
   // your code
 }
-const array = [0, null, undefined, "", 2, ,'hello',[1,2]];
+const array = [0, null, undefined, "", 2, 'hello', [1,2]];
 console.log(countTruthy(array))
 // #

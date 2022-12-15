@@ -6,7 +6,7 @@ test('until 5, show odd and even ', () => {
   for (let i = 0; i <= 5; i++) {
     if (i % 2 === 0) {
       expect(logSpy).toHaveBeenCalledWith((i + ' EVEN'));
-    } else expect(logSpy).toHaveBeenCalledWith(i + ' ODD');
+    } else expect(logSpy).toHaveBeenCalledWith((i + ' ODD'));
   }
 });
 
