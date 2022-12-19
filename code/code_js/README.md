@@ -11,7 +11,7 @@ npm install
 * make sure you are in the right test folder task(number)
 * you can run your code while developing with:  
 ```
-node task.js 
+node solution.js 
 ```
 * write test code in the file solution.test.js
 * you can run the test with:

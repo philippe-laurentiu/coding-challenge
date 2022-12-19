@@ -20,16 +20,3 @@ console.log(speedCheck(97));
 console.log(speedCheck(200));
 
 // #
-
-// solution:
-function speedCheck(speed) {
-  let points = 0;
-
-  if (speed < 75)
-    return "Ok";
-    
-  if (speed >= 75) points = Math.floor((speed - 70) / 5);
-  if (points < 12)
-    return "point: " + points;
-  return "Licence suspended";
-}
