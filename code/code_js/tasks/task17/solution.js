@@ -1,13 +1,14 @@
 const movies = [
-  {title: 'a', year: 2018, rating: '4.5'},
-  {title: 'b', year: 2018, rating: '4.7'}, 
-  {title: 'c', year: 2018, rating: '3'},
-  {title: 'd', year: 2017, rating: '4.5'}
+  {title: 'Avatar', year: 2009, rating: '8.2'},
+  {title: 'Batman Returns', year: 1992, rating: '9.1'},
+  {title: 'Creed', year: 2015, rating: '9.5'},
+  {title: 'Django', year: 2012, rating: '8.7'}
 ];
 
-movies
-.filter((element) => element.year === 2018 && element.rating > 4)
+const result = movies
+.filter((element) => element.year > 2000 && element.rating > 8.5)
 .sort((a,b) => (a.rating < b.rating) ? 1 : -1)
-.map((e) => console.log(e.title))
+
+result.map((e) => console.log(e.title))
 // export
-module.exports = add;
+module.exports = result;

@@ -1,6 +1,7 @@
-const f = require('./solution.js');
+const o = require('./solution.js');
 
 test('two movie title need to show', () => {
-  expect(f(2, 2)).toBe();
+  expect(o[0].title).toBe('Creed')
+  expect(o[1].title).toBe('Django')
 });
 
