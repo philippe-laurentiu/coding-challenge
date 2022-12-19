@@ -3,7 +3,7 @@
 // dificulty: ***#
 // topic: functions array conditions #
 
-// taskdescription: using callback function 'reduce', and counts how many seachElement in the array#
+// taskdescription: using callback function 'reduce', write a function counts how many seachElement in the array #
 
 // code:
 function countOccurrences(array, seachElement) {
